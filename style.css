@@ -461,7 +461,6 @@ p { margin: 0; line-height: 1.6; }
     position: fixed;
     inset: 78px 0 auto 0;
     padding-top: env(safe-area-inset-top, 0px);
-    background: var(--paper);
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
