@@ -235,7 +235,6 @@ p { margin: 0; line-height: 1.6; }
   font-family: var(--font-display);
   font-style: italic;
   font-size: clamp(1.35rem, 2.6vw, 1.9rem);
-  background: #C36F44;
   max-width: 34ch;
   margin: 0 auto;
   line-height: 1.5;
@@ -261,7 +260,7 @@ p { margin: 0; line-height: 1.6; }
   gap: 28px;
 }
 .product-card {
-  background: #856752;
+  background: #503b2c;
   border: 1px solid rgba(90,55,30,0.1);
   border-radius: var(--radius);
   padding: 30px 26px 26px;
@@ -462,7 +461,6 @@ p { margin: 0; line-height: 1.6; }
     position: fixed;
     inset: 78px 0 auto 0;
     padding-top: env(safe-area-inset-top, 0px);
-    background: var(--paper);
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
