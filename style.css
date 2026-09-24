@@ -41,7 +41,7 @@ body {
   margin: 0;
   font-family: var(--font-body);
   color: var(--ink);
-  background: var(--gold-dark);
+  background: var(--cream);
   -webkit-font-smoothing: antialiased;
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
@@ -484,9 +484,4 @@ p { margin: 0; line-height: 1.6; }
   .footer-grid { grid-template-columns: 1fr; gap: 34px; }
   .hero { padding: 70px 0 80px; }
   .statement, .process, .testimonial, .cta-final, .features { padding-top: 70px; padding-bottom: 70px; }
-}
-
-html,
-body {
-  background: #5E2E19 !important;
 }
