@@ -41,7 +41,7 @@ body {
   margin: 0;
   font-family: var(--font-body);
   color: var(--ink);
-  background: var(--cream);
+  background: #2A160D;
   -webkit-font-smoothing: antialiased;
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
@@ -238,6 +238,7 @@ p { margin: 0; line-height: 1.6; }
   max-width: 34ch;
   margin: 0 auto;
   line-height: 1.5;
+  color: #EEE0CC;             
 }
 
 /* ==========================================================
