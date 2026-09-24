@@ -119,7 +119,7 @@ p { margin: 0; line-height: 1.6; }
   top: 0;
   z-index: 100;
   padding-top: env(safe-area-inset-top, 0px);
-  background: #583807
+  background: #412803
   ;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(90, 55, 30, 0.12);
@@ -235,7 +235,7 @@ p { margin: 0; line-height: 1.6; }
   font-family: var(--font-display);
   font-style: italic;
   font-size: clamp(1.35rem, 2.6vw, 1.9rem);
-  color: var(--terracotta-800);
+  background: #C36F44;
   max-width: 34ch;
   margin: 0 auto;
   line-height: 1.5;
@@ -253,7 +253,7 @@ p { margin: 0; line-height: 1.6; }
 /* ==========================================================
    COLLECTION
    ========================================================== */
-.collection { padding: 30px 0 110px; background: var(--cream); }
+.collection { padding: 30px 0 110px; background: #503104; }
 
 .product-grid {
   display: grid;
@@ -261,7 +261,7 @@ p { margin: 0; line-height: 1.6; }
   gap: 28px;
 }
 .product-card {
-  background: #5C4535;
+  background: #856752;
   border: 1px solid rgba(90,55,30,0.1);
   border-radius: var(--radius);
   padding: 30px 26px 26px;
