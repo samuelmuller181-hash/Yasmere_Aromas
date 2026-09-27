@@ -59,11 +59,11 @@ a { color: inherit; text-decoration: none; }
 h1, h2, h3 {
   font-family: var(--font-display);
   font-weight: 500;
-  color: var(--ink);
+  color: white;
   margin: 0;
 }
 
-p { margin: 0; line-height: 1.6; }
+p { margin: 0; line-height: 1.6; color: white;}
 
 ::selection { background: var(--gold-light); color: var(--ink); }
 
@@ -286,7 +286,7 @@ p { margin: 0; line-height: 1.6; }
   margin-top: 8px;
   font-size: 0.78rem;
   letter-spacing: 0.06em;
-  color: var(--ink-soft);
+  color: white;
 }
 .price { margin-top: 14px; font-family: var(--font-display); font-size: 1.15rem; color: var(--terracotta-700); }
 
@@ -349,7 +349,7 @@ p { margin: 0; line-height: 1.6; }
   margin-bottom: 16px;
 }
 .process-steps h3 { font-size: 1.15rem; }
-.process-steps p { margin-top: 8px; color: var(--ink-soft); font-size: 0.92rem; }
+.process-steps p { margin-top: 8px; color: white; font-size: 0.92rem; }
 
 .care-section {
   padding: 90px 0;
