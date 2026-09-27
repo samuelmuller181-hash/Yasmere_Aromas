@@ -40,11 +40,10 @@ html {
 body {
   margin: 0;
   font-family: var(--font-body);
-  color: var(--ink);
-  background: #2A160D;
   -webkit-font-smoothing: antialiased;
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: #412803;
 }
 
 img, svg { display: block; max-width: 100%; }
@@ -204,7 +203,6 @@ p { margin: 0; line-height: 1.6; }
   font-size: clamp(2.1rem, 4.6vw, 3.4rem);
   font-weight: 500;
   line-height: 1.18;
-  max-width: 16ch;
   color: var(--cream);
 }
 
@@ -230,7 +228,7 @@ p { margin: 0; line-height: 1.6; }
 /* ==========================================================
    STATEMENT
    ========================================================== */
-.statement { padding: 90px 0; text-align: center; }
+.statement { padding: 90px 0; text-align: center; background: var(--terracotta-900);}
 .statement-text {
   font-family: var(--font-display);
   font-style: italic;
@@ -253,7 +251,7 @@ p { margin: 0; line-height: 1.6; }
 /* ==========================================================
    COLLECTION
    ========================================================== */
-.collection { padding: 30px 0 110px; background: #503104; }
+.collection { padding: 30px 0 110px; background: #412803; }
 
 .product-grid {
   display: grid;
@@ -261,7 +259,7 @@ p { margin: 0; line-height: 1.6; }
   gap: 28px;
 }
 .product-card {
-  background: #503b2c;
+  background: var(--terracotta-900);
   border: 1px solid rgba(90,55,30,0.1);
   border-radius: var(--radius);
   padding: 30px 26px 26px;
@@ -320,7 +318,7 @@ p { margin: 0; line-height: 1.6; }
 /* ==========================================================
    PROCESS
    ========================================================== */
-.process { padding: 110px 0; background: var(--paper); }
+.process { padding: 110px 0; background: var(--terracotta-900); }
 .process-steps {
   list-style: none;
   margin: 0; padding: 0;
@@ -343,7 +341,7 @@ p { margin: 0; line-height: 1.6; }
   align-items: center; justify-content: center;
   width: 30px; height: 30px;
   border-radius: 50%;
-  background: var(--paper);
+  background: var(--terracotta-900);
   border: 1px solid var(--gold);
   color: var(--terracotta-800);
   font-family: var(--font-display);
@@ -352,6 +350,39 @@ p { margin: 0; line-height: 1.6; }
 }
 .process-steps h3 { font-size: 1.15rem; }
 .process-steps p { margin-top: 8px; color: var(--ink-soft); font-size: 0.92rem; }
+
+.care-section {
+  padding: 90px 0;
+}
+
+.care-box {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 42px;
+  background: #412803;
+  border: 1px solid var(--terracotta-700);
+  text-align: center;
+}
+
+.care-box h2 {
+  margin-bottom: 18px;
+}
+
+.care-box p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+}
+
+.care-box ul {
+  max-width: 650px;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.care-box li {
+  margin-bottom: 10px;
+}
 
 /* ==========================================================
    CTA FINAL
